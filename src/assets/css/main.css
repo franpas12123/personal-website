@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: nunito, system-ui, sans-serif;
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-slate-900 text-icon-default;
+  }
+  section {
+    @apply mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24;
+  }
+}
