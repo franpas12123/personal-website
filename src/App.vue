@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useTemplateRef, ref, onMounted } from "vue";
+// import { useTemplateRef, ref, onMounted } from "vue";
 
 import AppHeader from "./components/AppHeader.vue";
 import AppSection from "./components/AppSection.vue";
@@ -9,9 +9,9 @@ import AppCTA from "./components/AppCTA.vue";
 
 import { useStore } from "./stores/store";
 
-import { useElementVisibility } from "@vueuse/core";
+// import { useElementVisibility } from "@vueuse/core";
 
-const refs = ref([]);
+// const refs = ref([]);
 const { navigation } = useStore();
 
 </script>

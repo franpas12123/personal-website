@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SOCIAL_ICONS_PATH } from "../constants.js";
+// import { SOCIAL_ICONS_PATH } from "../constants.js";
 import GithubIcon from "../assets/icons/socials/github.svg?raw";
 import LinkedInIcon from "../assets/icons/socials/linkedin.svg?raw";
 import UpworkIcon from "../assets/icons/socials/upwork.svg?raw";

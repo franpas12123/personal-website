@@ -42,8 +42,11 @@ export const useStore = defineStore('store', () => {
     },
   }
 
-  const setVisibility = (ref: string, isVisible: boolean) => {
-  }
+  // const setVisibility = (ref: string, isVisible: boolean) => {
+  // }
 
-  return { navigation, setVisibility }
+  return { 
+    navigation,
+    // setVisibility
+  }
 })
