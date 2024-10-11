@@ -7,11 +7,11 @@ const { ariaLabel } = defineProps<{
 
 <template>
   <div
-    class="sticky top-0 scroll-mt-16 bg-slate-900/75 backdrop-blur"
+    class="sticky top-0 scroll-mt-16 bg-slate-900/75 backdrop-blur -mx-5"
     :aria-label="ariaLabel"
   >
     <h2
-      class="text-md py-6 font-bold uppercase tracking-wide text-slate-200 lg:sr-only"
+      class="text-md py-6 font-bold uppercase tracking-wide text-slate-200 lg:sr-only ml-5"
     >
       {{ title }}
     </h2>
