@@ -13,12 +13,9 @@ import { useStore } from "./stores/store";
 
 // const refs = ref([]);
 const { navigation } = useStore();
-
 </script>
 
 <template>
-  <div class="sticky left-0 top-0">
-  </div>
   <div
     class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0"
   >
@@ -317,6 +314,16 @@ const { navigation } = useStore();
                 that issues insurance certificates.
               </p>
             </AppExperience>
+
+            <div class="mt-14">
+              <p class="text-sm">
+                Download my
+                <a href="/resume.pdf" download="resume.pdf" class=" font-semibold text-teal-300">
+                  resume
+                </a>
+                to learn more about my work experience and skills.
+              </p>
+            </div>
           </AppSection>
         </section>
 
