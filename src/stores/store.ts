@@ -26,13 +26,13 @@ export const useStore = defineStore('store', () => {
       ariaLabel: 'Freelance experience',
       isVisible: useElementVisibility(null)
     },
-    projects: {
-      name: "projects",
-      url: "#projects",
-      ref: 'projects',
-      ariaLabel: 'Projects',
-      isVisible: useElementVisibility(null)
-    },
+    // projects: {
+    //   name: "projects",
+    //   url: "#projects",
+    //   ref: 'projects',
+    //   ariaLabel: 'Projects',
+    //   isVisible: useElementVisibility(null)
+    // },
     contact: {
       name: "contact",
       url: "#contact",
