@@ -77,6 +77,7 @@ const { navigation } = useStore();
                 'Ionic',
                 'Braze',
                 'Storyblok',
+                'FullStory',
               ]"
             >
               <p>
