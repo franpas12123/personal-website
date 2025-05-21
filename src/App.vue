@@ -59,7 +59,7 @@ const { navigation } = useStore();
         <section :ref="navigation.experience.name" id="work-experience">
           <AppSection title="Work Experience" ariaLabel="Work experience">
             <AppExperience
-              dates="Dec 2021 — present"
+              dates="Dec 2021 — Apr 2025"
               title="Frontend Developer"
               company="BCS Technology"
               companyUrl="https://bcstechnology.com.au/"
@@ -316,15 +316,35 @@ const { navigation } = useStore();
               </p>
             </AppExperience>
 
-            <div class="mt-14">
+            <!-- <div class="mt-14">
               <p class="text-sm">
                 Download my
-                <a href="/resume.pdf" download="resume.pdf" class=" font-semibold text-teal-300">
+                <a
+                  href="/resume.pdf"
+                  download="resume.pdf"
+                  class="font-semibold text-teal-300"
+                >
                   resume
                 </a>
                 to learn more about my work experience and skills.
               </p>
-            </div>
+            </div> -->
+          </AppSection>
+        </section>
+
+        <section
+          :ref="navigation.projects.name"
+          id="projects"
+          aria-label="My Projects"
+          class="my-20"
+        >
+          <AppSection title="My Projects" ariaLabel="My Projects">
+            <h1 class="text-xl leading-snug text-slate-200">
+              <a href="https://vuedown.netlify.app">VueMarkdown</a>
+            </h1>
+            A lightweight, Obsidian-inspired Markdown editor with a live
+            preview, syntax highlighting via Prism, and custom checklist
+            rendering. Built using Vue 3, Vite, and Marked.
           </AppSection>
         </section>
 
